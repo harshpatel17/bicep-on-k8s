@@ -7,9 +7,9 @@ usage="Usage: ./initial_setup.sh <tenantId> <subscriptionId>"
 tenantId=${1:?"Missing tenantId. ${usage}"}
 subId=${2:?"Missing subscriptionId. ${usage}"}
 
-repoOwner="anthony-c-martin"
+repoOwner="harshpatel17"
 repoName="bicep-on-k8s"
-rgName="bicepbuild"
+rgName="hpextensible"
 rgLocation="East US"
 
 az account set -n "$subId"
